@@ -1,0 +1,42 @@
+{
+  "editor.minimap.enabled": false,
+  "editor.rulers": [
+    80,
+    120
+  ],
+  "editor.scrollBeyondLastLine": false,
+  "explorer.autoReveal": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "files.associations": {
+    "*.ks": "bash",
+    "*.sls": "yaml"
+  },
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 2000,
+  "files.exclude": {
+    "**/.DS_Store": true,
+    "**/.git": true,
+    "**/.hg": true,
+    "**/.svn": true,
+    "**/CVS": true,
+    "**/__pycache__": true,
+    "**/*.pyc": true,
+    "**/.pytest_cache": true,
+    "**/.mypy_cache": true,
+    "**/node_modules": true,
+    ".vscode": true
+  },
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "terminal.integrated.shell.linux": "/usr/bin/bash",
+  "window.zoomLevel": 0,
+  "workbench.editor.enablePreview": false,
+  "python.venvPath": "~/.venvs/${workspaceFolderBasename}",
+  "python.pythonPath": "~/.venvs/${workspaceFolderBasename}/bin/python",
+  "python.jediEnabled": false,
+  "python.linting.pylintEnabled": false,
+  "python.linting.prospectorEnabled": true,
+  "workbench.statusBar.feedback.visible": false
+}
