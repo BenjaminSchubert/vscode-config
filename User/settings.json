@@ -25,7 +25,10 @@
     "**/.pytest_cache": true,
     "**/.mypy_cache": true,
     "**/node_modules": true,
-    ".vscode": true
+    "**.idea": true,
+    ".vscode": true,
+    "**/.tox": true,
+    "**/*.egg-info": true
   },
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
@@ -36,7 +39,11 @@
   "python.venvPath": "~/.venvs/${workspaceFolderBasename}",
   "python.pythonPath": "~/.venvs/${workspaceFolderBasename}/bin/python",
   "python.jediEnabled": false,
-  "python.linting.pylintEnabled": false,
-  "python.linting.prospectorEnabled": true,
-  "workbench.statusBar.feedback.visible": false
+  "python.linting.pylintEnabled": true,
+  "python.linting.flake8Enabled": true,
+  "python.linting.mypyEnabled": true,
+  "python.unitTest.pyTestEnabled": true,
+  "workbench.statusBar.feedback.visible": false,
+  "workbench.settings.editor": "json"
+
 }
