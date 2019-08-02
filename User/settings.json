@@ -42,7 +42,7 @@
   "python.linting.pylintEnabled": true,
   "python.linting.flake8Enabled": true,
   "python.linting.mypyEnabled": true,
-  "python.unitTest.pyTestEnabled": true,
+  "python.testing.pytestEnabled": true,
   "update.channel": "none",
   "workbench.statusBar.feedback.visible": false,
   "workbench.settings.editor": "json"
