@@ -34,16 +34,14 @@
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
-  "terminal.integrated.shell.linux": "/usr/bin/bash",
   "window.zoomLevel": 0,
   "workbench.editor.enablePreview": false,
   "python.venvPath": "~/.virtualenvs/",
-  "python.jediEnabled": false,
   "python.linting.pylintEnabled": true,
   "python.linting.flake8Enabled": true,
   "python.linting.mypyEnabled": true,
   "python.testing.pytestEnabled": true,
-  "update.channel": "none",
-  "workbench.statusBar.feedback.visible": false,
-  "workbench.settings.editor": "json"
+  "update.mode": "none",
+  "workbench.settings.editor": "json",
+  "redhat.telemetry.enabled": false
 }
