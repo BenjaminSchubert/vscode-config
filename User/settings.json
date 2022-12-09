@@ -34,7 +34,6 @@
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
-  "window.zoomLevel": 0,
   "workbench.editor.enablePreview": false,
   "python.venvPath": "~/.virtualenvs/",
   "python.linting.pylintEnabled": true,
